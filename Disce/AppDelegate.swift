@@ -8,14 +8,21 @@
 
 import Cocoa
 import SwiftUI
+import Firebase
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
 
     var window: NSWindow!
+    
+    override init() {
 
+    FirebaseApp.configure()
+
+    }
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
+        
         // Create the SwiftUI view that provides the window contents.
         let contentView = ContentView()
 
@@ -26,7 +33,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             backing: .buffered, defer: false)
         window.center()
         window.setFrameAutosaveName("Main Window")
-        window.contentView = NSHostingView(rootView: contentView)
+        window.contentView = NSHostingView(rootView: contentView.environmentObject(SessionStore()))
         window.makeKeyAndOrderFront(nil)
     }
 

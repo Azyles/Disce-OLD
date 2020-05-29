@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,9 +12,18 @@
 		4305308F24818F3F0010BDF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4305308E24818F3F0010BDF0 /* Assets.xcassets */; };
 		4305309224818F3F0010BDF0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4305309124818F3F0010BDF0 /* Preview Assets.xcassets */; };
 		4305309524818F3F0010BDF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4305309324818F3F0010BDF0 /* Main.storyboard */; };
+		4305309E24818FEE0010BDF0 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4305309D24818FEE0010BDF0 /* AuthView.swift */; };
+		430530A0248190160010BDF0 /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4305309F248190160010BDF0 /* SessionStore.swift */; };
+		430530A6248196540010BDF0 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430530A5248196540010BDF0 /* HomeView.swift */; };
+		430530AE2481A12E0010BDF0 /* LoginRegisterSidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430530AD2481A12E0010BDF0 /* LoginRegisterSidebar.swift */; };
+		430530B02481A6AA0010BDF0 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 430530AF2481A6AA0010BDF0 /* GoogleService-Info.plist */; };
+		430530B42481C5030010BDF0 /* MainSideBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430530B32481C5020010BDF0 /* MainSideBar.swift */; };
+		430530B62481C89A0010BDF0 /* NavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430530B52481C89A0010BDF0 /* NavView.swift */; };
+		DBE44168003955FE7E8B468E /* Pods_Disce.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AB4D67AC5C63AB9012FBED2 /* Pods_Disce.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3AB4D67AC5C63AB9012FBED2 /* Pods_Disce.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Disce.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4305308724818F3C0010BDF0 /* Disce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Disce.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4305308A24818F3C0010BDF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4305308C24818F3C0010BDF0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -23,6 +32,15 @@
 		4305309424818F3F0010BDF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4305309624818F400010BDF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4305309724818F400010BDF0 /* Disce.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Disce.entitlements; sourceTree = "<group>"; };
+		4305309D24818FEE0010BDF0 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		4305309F248190160010BDF0 /* SessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionStore.swift; sourceTree = "<group>"; };
+		430530A5248196540010BDF0 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeView.swift; path = /Users/kush/Developer/Disce/Disce/HomeView.swift; sourceTree = "<absolute>"; };
+		430530AD2481A12E0010BDF0 /* LoginRegisterSidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRegisterSidebar.swift; sourceTree = "<group>"; };
+		430530AF2481A6AA0010BDF0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		430530B32481C5020010BDF0 /* MainSideBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSideBar.swift; sourceTree = "<group>"; };
+		430530B52481C89A0010BDF0 /* NavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavView.swift; sourceTree = "<group>"; };
+		448CDC86D97B9230A995F914 /* Pods-Disce.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Disce.release.xcconfig"; path = "Target Support Files/Pods-Disce/Pods-Disce.release.xcconfig"; sourceTree = "<group>"; };
+		7928BFCD065402B3FF12F624 /* Pods-Disce.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Disce.debug.xcconfig"; path = "Target Support Files/Pods-Disce/Pods-Disce.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,17 +48,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBE44168003955FE7E8B468E /* Pods_Disce.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D9F3FF95478EB4A347D266E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3AB4D67AC5C63AB9012FBED2 /* Pods_Disce.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4305307E24818F3C0010BDF0 = {
 			isa = PBXGroup;
 			children = (
 				4305308924818F3C0010BDF0 /* Disce */,
 				4305308824818F3C0010BDF0 /* Products */,
+				878121E38083EAE0BA0B83F4 /* Pods */,
+				1D9F3FF95478EB4A347D266E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,6 +84,7 @@
 		4305308924818F3C0010BDF0 /* Disce */ = {
 			isa = PBXGroup;
 			children = (
+				430530A5248196540010BDF0 /* HomeView.swift */,
 				4305308A24818F3C0010BDF0 /* AppDelegate.swift */,
 				4305308C24818F3C0010BDF0 /* ContentView.swift */,
 				4305308E24818F3F0010BDF0 /* Assets.xcassets */,
@@ -62,6 +92,12 @@
 				4305309624818F400010BDF0 /* Info.plist */,
 				4305309724818F400010BDF0 /* Disce.entitlements */,
 				4305309024818F3F0010BDF0 /* Preview Content */,
+				4305309D24818FEE0010BDF0 /* AuthView.swift */,
+				4305309F248190160010BDF0 /* SessionStore.swift */,
+				430530AD2481A12E0010BDF0 /* LoginRegisterSidebar.swift */,
+				430530AF2481A6AA0010BDF0 /* GoogleService-Info.plist */,
+				430530B32481C5020010BDF0 /* MainSideBar.swift */,
+				430530B52481C89A0010BDF0 /* NavView.swift */,
 			);
 			path = Disce;
 			sourceTree = "<group>";
@@ -74,6 +110,15 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		878121E38083EAE0BA0B83F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7928BFCD065402B3FF12F624 /* Pods-Disce.debug.xcconfig */,
+				448CDC86D97B9230A995F914 /* Pods-Disce.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -81,9 +126,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4305309A24818F400010BDF0 /* Build configuration list for PBXNativeTarget "Disce" */;
 			buildPhases = (
+				033C426CF0F2A5DF8F880F80 /* [CP] Check Pods Manifest.lock */,
 				4305308324818F3C0010BDF0 /* Sources */,
 				4305308424818F3C0010BDF0 /* Frameworks */,
 				4305308524818F3C0010BDF0 /* Resources */,
+				3E1DBBE58E2BFE2823F63486 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,6 +180,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4305309524818F3F0010BDF0 /* Main.storyboard in Resources */,
+				430530B02481A6AA0010BDF0 /* GoogleService-Info.plist in Resources */,
 				4305309224818F3F0010BDF0 /* Preview Assets.xcassets in Resources */,
 				4305308F24818F3F0010BDF0 /* Assets.xcassets in Resources */,
 			);
@@ -140,13 +188,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		033C426CF0F2A5DF8F880F80 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Disce-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E1DBBE58E2BFE2823F63486 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Disce/Pods-Disce-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Disce/Pods-Disce-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Disce/Pods-Disce-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4305308324818F3C0010BDF0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				430530B62481C89A0010BDF0 /* NavView.swift in Sources */,
 				4305308D24818F3C0010BDF0 /* ContentView.swift in Sources */,
 				4305308B24818F3C0010BDF0 /* AppDelegate.swift in Sources */,
+				430530A6248196540010BDF0 /* HomeView.swift in Sources */,
+				430530A0248190160010BDF0 /* SessionStore.swift in Sources */,
+				430530B42481C5030010BDF0 /* MainSideBar.swift in Sources */,
+				4305309E24818FEE0010BDF0 /* AuthView.swift in Sources */,
+				430530AE2481A12E0010BDF0 /* LoginRegisterSidebar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,9 +375,11 @@
 		};
 		4305309B24818F400010BDF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7928BFCD065402B3FF12F624 /* Pods-Disce.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Disce/Disce.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Disce/Preview Content\"";
@@ -300,9 +398,11 @@
 		};
 		4305309C24818F400010BDF0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 448CDC86D97B9230A995F914 /* Pods-Disce.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Disce/Disce.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Disce/Preview Content\"";
@@ -329,7 +429,7 @@
 				4305309924818F400010BDF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		4305309A24818F400010BDF0 /* Build configuration list for PBXNativeTarget "Disce" */ = {
 			isa = XCConfigurationList;
@@ -338,7 +438,7 @@
 				4305309C24818F400010BDF0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
