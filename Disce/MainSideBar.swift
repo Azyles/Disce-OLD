@@ -14,7 +14,7 @@ struct MainSideBar: View {
             NavigationLink(destination: HomeView()) {
                 Text("Home")
             }
-            NavigationLink(destination: HomeView()) {
+            NavigationLink(destination: UploadView()) {
                 Text("Home")
             }
         }
