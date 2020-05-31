@@ -13,9 +13,13 @@ struct MainSideBar: View {
         List{
             NavigationLink(destination: HomeView()) {
                 Text("Home")
+                    .font(.headline)
+                    .fontWeight(.semibold)
             }
             NavigationLink(destination: UploadView()) {
-                Text("Home")
+                Text("Upload")
+                    .font(.headline)
+                    .fontWeight(.semibold)
             }
         }
         .listStyle(SidebarListStyle())

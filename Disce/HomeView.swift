@@ -42,17 +42,20 @@ struct HomeView: View {
                     .padding([.leading, .bottom, .trailing], 40.0)
                 List(viewModel.books) { book in
                     NavigationLink(destination: PostView(book:book)) {
-                        WebImage(url: URL(string: book.imageURL))
-                            .onSuccess { image, data, cacheType in
-                            }
-                            .resizable()
-                            .indicator(.activity)
-                            .animation(.easeInOut(duration: 0.5))
-                            .transition(.fade)
-                            .scaledToFill()
-                            .overlay(RoundedRectangle(cornerRadius: 10)
-                            .stroke(Color.white, lineWidth: 4))
-                            .frame(width: 300.0, height: 300.0,alignment: .center)
+                        HStack {
+                            Spacer()
+                            WebImage(url: URL(string: book.imageURL))
+                                .onSuccess { image, data, cacheType in
+                                }
+                                .resizable()
+                                .indicator(.activity)
+                                .animation(.easeInOut(duration: 0.5))
+                                .transition(.fade)
+                                .scaledToFill()
+                            .frame(width: 700.0, height: 300.0,alignment: .center)
+                            Spacer()
+                        }
+                        .padding(.all)
                         
                     }.onTapGesture(count: 1) {
                         let controller = DetailWindowController(rootView: PostView(book: book))
@@ -64,9 +67,8 @@ struct HomeView: View {
                 .onAppear() { // (3)
                   self.viewModel.fetchData()
                 }
-                
                 Spacer()
-            }.padding(.bottom).frame(width: 800, height: 600)
+            }.frame(width: 800, height: 600)
         }
     }
 }
