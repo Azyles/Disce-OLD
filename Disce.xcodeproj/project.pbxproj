@@ -25,6 +25,8 @@
 		43F69B932483292700E8D90E /* GridCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F69B922483292700E8D90E /* GridCard.swift */; };
 		43F69B9524832EEB00E8D90E /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F69B9424832EEB00E8D90E /* PostView.swift */; };
 		43F69B97248337FE00E8D90E /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F69B96248337FE00E8D90E /* WindowController.swift */; };
+		43F69B992483402500E8D90E /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F69B982483402500E8D90E /* ProfileScreen.swift */; };
+		43F69B9B248347D700E8D90E /* SettingsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F69B9A248347D700E8D90E /* SettingsPage.swift */; };
 		DBE44168003955FE7E8B468E /* Pods_Disce.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AB4D67AC5C63AB9012FBED2 /* Pods_Disce.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +51,8 @@
 		43F69B922483292700E8D90E /* GridCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridCard.swift; sourceTree = "<group>"; };
 		43F69B9424832EEB00E8D90E /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
 		43F69B96248337FE00E8D90E /* WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
+		43F69B982483402500E8D90E /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
+		43F69B9A248347D700E8D90E /* SettingsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPage.swift; sourceTree = "<group>"; };
 		448CDC86D97B9230A995F914 /* Pods-Disce.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Disce.release.xcconfig"; path = "Target Support Files/Pods-Disce/Pods-Disce.release.xcconfig"; sourceTree = "<group>"; };
 		7928BFCD065402B3FF12F624 /* Pods-Disce.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Disce.debug.xcconfig"; path = "Target Support Files/Pods-Disce/Pods-Disce.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -114,6 +118,8 @@
 				430530B32481C5020010BDF0 /* MainSideBar.swift */,
 				430530B52481C89A0010BDF0 /* NavView.swift */,
 				43F69B9424832EEB00E8D90E /* PostView.swift */,
+				43F69B982483402500E8D90E /* ProfileScreen.swift */,
+				43F69B9A248347D700E8D90E /* SettingsPage.swift */,
 			);
 			path = Disce;
 			sourceTree = "<group>";
@@ -263,6 +269,8 @@
 				43F69B97248337FE00E8D90E /* WindowController.swift in Sources */,
 				430530B62481C89A0010BDF0 /* NavView.swift in Sources */,
 				4305308D24818F3C0010BDF0 /* ContentView.swift in Sources */,
+				43F69B992483402500E8D90E /* ProfileScreen.swift in Sources */,
+				43F69B9B248347D700E8D90E /* SettingsPage.swift in Sources */,
 				4305308B24818F3C0010BDF0 /* AppDelegate.swift in Sources */,
 				430530A6248196540010BDF0 /* HomeView.swift in Sources */,
 				430530A0248190160010BDF0 /* SessionStore.swift in Sources */,

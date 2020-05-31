@@ -21,6 +21,16 @@ struct MainSideBar: View {
                     .font(.headline)
                     .fontWeight(.semibold)
             }
+            NavigationLink(destination: ProfileScreen()) {
+                Text("Profile")
+                    .font(.headline)
+                    .fontWeight(.semibold)
+            }
+            NavigationLink(destination: SettingsPage()) {
+                Text("Settings")
+                    .font(.headline)
+                    .fontWeight(.semibold)
+            }
         }
         .listStyle(SidebarListStyle())
         .frame(width: 150, height: 600)
